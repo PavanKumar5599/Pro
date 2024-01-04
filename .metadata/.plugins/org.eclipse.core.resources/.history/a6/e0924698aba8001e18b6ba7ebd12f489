@@ -1,0 +1,48 @@
+package testng_package;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+public class Practice2 {
+	WebDriver driver= new ChromeDriver();
+	
+  @BeforeMethod
+  public void f() {
+	  driver.get("https://magento.softwaretestingboard.com/");
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	    
+  }
+  @Test(priority=1)
+  public void registration() {
+	//  create an account
+		driver.findElement(By.xpath("(//*[text()=\"Create an Account\"])[1]")).click();
+		
+		driver.findElement(By.xpath("//*[@id=\"firstname\"]")).sendKeys("Pavan Kumar");
+		driver.findElement(By.xpath("//*[@id=\"lastname\"]")).sendKeys("nasana");
+		driver.findElement(By.xpath("//*[@id=\"email_address\"]")).sendKeys("pavan12345@gmail.com");
+		driver.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys("Kumar435@");
+		driver.findElement(By.xpath("//*[@id=\"password-confirmation\"]")).sendKeys("Kumar435@");
+		driver.findElement(By.xpath("(//*[text()=\"Create an Account\"])[3]")).click();
+		
+  }
+		//log in
+		@Test(priority=2)
+		 public void login() {
+			driver.findElement(By.xpath("//*[@class=\"header links\"]//li[2]//a")).click();
+			driver.findElement(By.xpath("//*[@id=\"email\"]")).sendKeys("pavan12345@gmail.com");
+			driver.findElement(By.xpath("//*[@id=\"pass\"]")).sendKeys("Kumar435@");
+			driver.findElement(By.xpath("(//*[text()=\"Sign In\"])[1]")).click();
+		}
+		
+		
+		
+  
+}
+  
+
