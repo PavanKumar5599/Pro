@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-02T20:52:40 IST" name="Default suite" finished-at="2024-01-02T20:54:28 IST" duration-ms="107232">
+    <groups>
+    </groups>
+    <test started-at="2024-01-02T20:52:40 IST" name="Default test" finished-at="2024-01-02T20:54:28 IST" duration-ms="107232">
+      <class name="testng_package.Practice2">
+        <test-method is-config="true" signature="f()[pri:0, instance:testng_package.Practice2@384fc774]" started-at="2024-01-02T20:52:40 IST" name="f" finished-at="2024-01-02T20:52:50 IST" duration-ms="9971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method signature="registration()[pri:1, instance:testng_package.Practice2@384fc774]" started-at="2024-01-02T20:52:50 IST" name="registration" finished-at="2024-01-02T20:52:56 IST" duration-ms="5175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration -->
+        <test-method is-config="true" signature="f()[pri:0, instance:testng_package.Practice2@384fc774]" started-at="2024-01-02T20:52:56 IST" name="f" finished-at="2024-01-02T20:52:57 IST" duration-ms="1221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method signature="login()[pri:2, instance:testng_package.Practice2@384fc774]" started-at="2024-01-02T20:52:57 IST" name="login" finished-at="2024-01-02T20:53:01 IST" duration-ms="4579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="f()[pri:0, instance:testng_package.Practice2@384fc774]" started-at="2024-01-02T20:53:01 IST" name="f" finished-at="2024-01-02T20:53:02 IST" duration-ms="1018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method signature="hoodie_title_verified()[pri:3, instance:testng_package.Practice2@384fc774]" started-at="2024-01-02T20:53:02 IST" name="hoodie_title_verified" finished-at="2024-01-02T20:53:06 IST" duration-ms="3081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hoodie_title_verified -->
+        <test-method is-config="true" signature="f()[pri:0, instance:testng_package.Practice2@384fc774]" started-at="2024-01-02T20:53:06 IST" name="f" finished-at="2024-01-02T20:53:06 IST" duration-ms="960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method signature="jacket_add_card()[pri:4, instance:testng_package.Practice2@384fc774]" started-at="2024-01-02T20:53:06 IST" name="jacket_add_card" finished-at="2024-01-02T20:53:10 IST" duration-ms="3085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jacket_add_card -->
+        <test-method is-config="true" signature="f()[pri:0, instance:testng_package.Practice2@384fc774]" started-at="2024-01-02T20:53:10 IST" name="f" finished-at="2024-01-02T20:53:11 IST" duration-ms="1036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method signature="tees_add_card()[pri:5, instance:testng_package.Practice2@384fc774]" started-at="2024-01-02T20:53:11 IST" name="tees_add_card" finished-at="2024-01-02T20:53:13 IST" duration-ms="2469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tees_add_card -->
+        <test-method is-config="true" signature="f()[pri:0, instance:testng_package.Practice2@384fc774]" started-at="2024-01-02T20:53:13 IST" name="f" finished-at="2024-01-02T20:53:14 IST" duration-ms="985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method signature="pants_add_card()[pri:6, instance:testng_package.Practice2@384fc774]" started-at="2024-01-02T20:53:14 IST" name="pants_add_card" finished-at="2024-01-02T20:53:16 IST" duration-ms="2190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pants_add_card -->
+        <test-method is-config="true" signature="f()[pri:0, instance:testng_package.Practice2@384fc774]" started-at="2024-01-02T20:53:16 IST" name="f" finished-at="2024-01-02T20:53:17 IST" duration-ms="1184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method signature="shorts_add_card()[pri:7, instance:testng_package.Practice2@384fc774]" started-at="2024-01-02T20:53:17 IST" name="shorts_add_card" finished-at="2024-01-02T20:53:23 IST" duration-ms="5141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shorts_add_card -->
+        <test-method is-config="true" signature="f()[pri:0, instance:testng_package.Practice2@384fc774]" started-at="2024-01-02T20:53:23 IST" name="f" finished-at="2024-01-02T20:53:24 IST" duration-ms="1195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method signature="hoodie_title()[pri:8, instance:testng_package.Practice2@384fc774]" started-at="2024-01-02T20:53:24 IST" name="hoodie_title" finished-at="2024-01-02T20:53:27 IST" duration-ms="3134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hoodie_title -->
+        <test-method is-config="true" signature="f()[pri:0, instance:testng_package.Practice2@384fc774]" started-at="2024-01-02T20:53:27 IST" name="f" finished-at="2024-01-02T20:53:29 IST" duration-ms="1692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method signature="jacket_title()[pri:9, instance:testng_package.Practice2@384fc774]" started-at="2024-01-02T20:53:29 IST" name="jacket_title" finished-at="2024-01-02T20:53:33 IST" duration-ms="4133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jacket_title -->
+        <test-method is-config="true" signature="f()[pri:0, instance:testng_package.Practice2@384fc774]" started-at="2024-01-02T20:53:33 IST" name="f" finished-at="2024-01-02T20:53:34 IST" duration-ms="1055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method signature="tees_title()[pri:10, instance:testng_package.Practice2@384fc774]" started-at="2024-01-02T20:53:34 IST" name="tees_title" finished-at="2024-01-02T20:53:37 IST" duration-ms="2835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tees_title -->
+        <test-method is-config="true" signature="f()[pri:0, instance:testng_package.Practice2@384fc774]" started-at="2024-01-02T20:53:37 IST" name="f" finished-at="2024-01-02T20:54:10 IST" duration-ms="33645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method signature="tanks_title()[pri:11, instance:testng_package.Practice2@384fc774]" started-at="2024-01-02T20:54:10 IST" name="tanks_title" finished-at="2024-01-02T20:54:15 IST" duration-ms="4301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tanks_title -->
+        <test-method is-config="true" signature="f()[pri:0, instance:testng_package.Practice2@384fc774]" started-at="2024-01-02T20:54:15 IST" name="f" finished-at="2024-01-02T20:54:16 IST" duration-ms="1770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method signature="pants_title()[pri:12, instance:testng_package.Practice2@384fc774]" started-at="2024-01-02T20:54:16 IST" name="pants_title" finished-at="2024-01-02T20:54:20 IST" duration-ms="4000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pants_title -->
+        <test-method is-config="true" signature="f()[pri:0, instance:testng_package.Practice2@384fc774]" started-at="2024-01-02T20:54:20 IST" name="f" finished-at="2024-01-02T20:54:23 IST" duration-ms="2967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method signature="shorts_title()[pri:13, instance:testng_package.Practice2@384fc774]" started-at="2024-01-02T20:54:23 IST" name="shorts_title" finished-at="2024-01-02T20:54:28 IST" duration-ms="4334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shorts_title -->
+      </class> <!-- testng_package.Practice2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
